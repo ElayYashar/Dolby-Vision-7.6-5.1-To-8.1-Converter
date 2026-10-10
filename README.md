@@ -8,3 +8,16 @@ ffmpeg.exe -i input.mkv -c:v copy -bsf:v hevc_mp4toannexb -f hevc - | dovi_tool.
 
 mkvmerge.exe -o new.mkv temp.hevc --no-video input.mkv
 ```
+
+- MKV input file name -> `input.mkv`
+- Output mkv file -> `output.mkv`
+
+Requires:
+1. FFMEG.exe
+2. DOVI_TOOL.exe
+3. MKVMERGE.EXE
+
+to be in the same directory.
+
+Does not clean up after itself, need to delete temp.hvec and input.mkv after running.
+The new files take about the same size as the original MKV size.
