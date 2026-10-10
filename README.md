@@ -14,8 +14,8 @@ mkvmerge.exe -o new.mkv temp.hevc --no-video input.mkv
 
 Requires:
 1. [FFMEG.exe](https://github.com/ffmpeg/ffmpeg)
-2. DOVI_TOOL.exe
-3. MKVMERGE.EXE
+2. [DOVI_TOOL.exe](https://github.com/quietvoid/dovi_tool)
+3. [MKVMERGE.EXE](https://mkvtoolnix.org/)
 
 to be in the same directory.
 
